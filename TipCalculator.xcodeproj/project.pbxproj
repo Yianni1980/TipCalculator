@@ -10,12 +10,16 @@
 		0BC92A5F2A4C205E0042A663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A5E2A4C205E0042A663 /* AppDelegate.swift */; };
 		0BC92A612A4C205E0042A663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A602A4C205E0042A663 /* SceneDelegate.swift */; };
 		0BC92A632A4C205E0042A663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A622A4C205E0042A663 /* ViewController.swift */; };
-		0BC92A662A4C205E0042A663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC92A642A4C205E0042A663 /* Main.storyboard */; };
 		0BC92A682A4C20600042A663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC92A672A4C20600042A663 /* Assets.xcassets */; };
 		0BC92A6B2A4C20600042A663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC92A692A4C20600042A663 /* LaunchScreen.storyboard */; };
 		0BC92A762A4C20600042A663 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A752A4C20600042A663 /* TipCalculatorTests.swift */; };
 		0BC92A802A4C20600042A663 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A7F2A4C20600042A663 /* TipCalculatorUITests.swift */; };
 		0BC92A822A4C20600042A663 /* TipCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A812A4C20600042A663 /* TipCalculatorUITestsLaunchTests.swift */; };
+		0BC92A902A4C21810042A663 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC92A8F2A4C21810042A663 /* CombineCocoa */; };
+		0BC92A932A4C21AB0042A663 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC92A922A4C21AB0042A663 /* SnapKit */; };
+		0BC92A962A4C21F30042A663 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC92A952A4C21F30042A663 /* CombineCocoa */; };
+		0BC92A992A4C22150042A663 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC92A982A4C22150042A663 /* SnapshotTesting */; };
+		0BC92A9B2A4C22220042A663 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 0BC92A9A2A4C22220042A663 /* CombineCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		0BC92A5E2A4C205E0042A663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC92A602A4C205E0042A663 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0BC92A622A4C205E0042A663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BC92A652A4C205E0042A663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BC92A672A4C20600042A663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC92A6A2A4C20600042A663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC92A6C2A4C20600042A663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC92A902A4C21810042A663 /* CombineCocoa in Frameworks */,
+				0BC92A932A4C21AB0042A663 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC92A962A4C21F30042A663 /* CombineCocoa in Frameworks */,
+				0BC92A992A4C22150042A663 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BC92A9B2A4C22220042A663 /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +91,7 @@
 				0BC92A742A4C20600042A663 /* TipCalculatorTests */,
 				0BC92A7E2A4C20600042A663 /* TipCalculatorUITests */,
 				0BC92A5C2A4C205E0042A663 /* Products */,
+				0BC92A942A4C21F30042A663 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +111,6 @@
 				0BC92A5E2A4C205E0042A663 /* AppDelegate.swift */,
 				0BC92A602A4C205E0042A663 /* SceneDelegate.swift */,
 				0BC92A622A4C205E0042A663 /* ViewController.swift */,
-				0BC92A642A4C205E0042A663 /* Main.storyboard */,
 				0BC92A672A4C20600042A663 /* Assets.xcassets */,
 				0BC92A692A4C20600042A663 /* LaunchScreen.storyboard */,
 				0BC92A6C2A4C20600042A663 /* Info.plist */,
@@ -127,6 +135,13 @@
 			path = TipCalculatorUITests;
 			sourceTree = "<group>";
 		};
+		0BC92A942A4C21F30042A663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +158,10 @@
 			dependencies = (
 			);
 			name = TipCalculator;
+			packageProductDependencies = (
+				0BC92A8F2A4C21810042A663 /* CombineCocoa */,
+				0BC92A922A4C21AB0042A663 /* SnapKit */,
+			);
 			productName = TipCalculator;
 			productReference = 0BC92A5B2A4C205E0042A663 /* TipCalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +180,10 @@
 				0BC92A732A4C20600042A663 /* PBXTargetDependency */,
 			);
 			name = TipCalculatorTests;
+			packageProductDependencies = (
+				0BC92A952A4C21F30042A663 /* CombineCocoa */,
+				0BC92A982A4C22150042A663 /* SnapshotTesting */,
+			);
 			productName = TipCalculatorTests;
 			productReference = 0BC92A712A4C20600042A663 /* TipCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -179,6 +202,9 @@
 				0BC92A7D2A4C20600042A663 /* PBXTargetDependency */,
 			);
 			name = TipCalculatorUITests;
+			packageProductDependencies = (
+				0BC92A9A2A4C22220042A663 /* CombineCocoa */,
+			);
 			productName = TipCalculatorUITests;
 			productReference = 0BC92A7B2A4C20600042A663 /* TipCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -215,6 +241,11 @@
 				Base,
 			);
 			mainGroup = 0BC92A522A4C205E0042A663;
+			packageReferences = (
+				0BC92A8E2A4C21810042A663 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				0BC92A912A4C21AB0042A663 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				0BC92A972A4C22150042A663 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 0BC92A5C2A4C205E0042A663 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +264,6 @@
 			files = (
 				0BC92A6B2A4C20600042A663 /* LaunchScreen.storyboard in Resources */,
 				0BC92A682A4C20600042A663 /* Assets.xcassets in Resources */,
-				0BC92A662A4C205E0042A663 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +327,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0BC92A642A4C205E0042A663 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BC92A652A4C205E0042A663 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0BC92A692A4C20600042A663 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +463,6 @@
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +489,6 @@
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,6 +616,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BC92A8E2A4C21810042A663 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		0BC92A912A4C21AB0042A663 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		0BC92A972A4C22150042A663 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BC92A8F2A4C21810042A663 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC92A8E2A4C21810042A663 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		0BC92A922A4C21AB0042A663 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC92A912A4C21AB0042A663 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		0BC92A952A4C21F30042A663 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC92A8E2A4C21810042A663 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		0BC92A982A4C22150042A663 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC92A972A4C22150042A663 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		0BC92A9A2A4C22220042A663 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BC92A8E2A4C21810042A663 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BC92A532A4C205E0042A663 /* Project object */;
 }
