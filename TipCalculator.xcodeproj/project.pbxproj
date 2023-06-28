@@ -29,6 +29,7 @@
 		0BC92AAD2A4C3D350042A663 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92AAC2A4C3D350042A663 /* ThemeFont.swift */; };
 		0BC92AB02A4C3E040042A663 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92AAF2A4C3E040042A663 /* UIColor+Extension.swift */; };
 		0BC92AB32A4C5AB40042A663 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92AB22A4C5AB40042A663 /* LabelFactory.swift */; };
+		0BD110102A4CCB6300ECD6CD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD1100F2A4CCB6300ECD6CD /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		0BC92AAC2A4C3D350042A663 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		0BC92AAF2A4C3E040042A663 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		0BC92AB22A4C5AB40042A663 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		0BD1100F2A4CCB6300ECD6CD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				0BC92AAF2A4C3E040042A663 /* UIColor+Extension.swift */,
+				0BD1100F2A4CCB6300ECD6CD /* UIView+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BC92AA12A4C30310042A663 /* LogoView.swift in Sources */,
+				0BD110102A4CCB6300ECD6CD /* UIView+Extension.swift in Sources */,
 				0BC92AB32A4C5AB40042A663 /* LabelFactory.swift in Sources */,
 				0BC92A9F2A4C302D0042A663 /* BillInputView.swift in Sources */,
 				0BC92A632A4C205E0042A663 /* CalculatorVC.swift in Sources */,

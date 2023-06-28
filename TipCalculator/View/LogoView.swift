@@ -6,10 +6,10 @@
 //
 
 import UIKit
-
+import SnapKit
 class LogoView:UIView {
     
-    private let ImageView: UIImageView = {
+    private let imageView: UIImageView = {
         let view  = UIImageView(image: .init(named: "icCalculatorBW"))
         view.contentMode = .scaleAspectFit
         return view
@@ -26,15 +26,26 @@ class LogoView:UIView {
         
     }()
     
-    private let 
+    private let  bottomLabel: UILabel = {
+        
+        LabelFactory.build(text: "Calculator", font: ThemeFont.demibold(ofSize: 20),textAlignment: .left)
+    }()
     
     
-    
+    private lazy var vStackView:UIStackView = {
+        let stackView = UIStackView(arrangedSubviews: [
+            topLabel,bottomLabel
+        ])
+        stackView.axis = .vertical
+        stackView.spacing = -4
+        
+        return stackView
+    }()
     
     
     private lazy var hStackView:UIStackView = {
        let stackView = UIStackView(arrangedSubviews: [
-       
+       imageView,vStackView
        ])
         stackView.axis = .horizontal
         stackView.spacing = 8
@@ -55,7 +66,15 @@ class LogoView:UIView {
     }
     
     private func layout() {
-        backgroundColor = .red
+        addSubview(hStackView )
+        hStackView.snp.makeConstraints { make in
+            make.top.bottom.equalToSuperview()
+            make.center.equalToSuperview()
+        }
+        imageView.snp.makeConstraints { make in
+            make.height.equalTo(imageView.snp.width)
+        }
+        
     }
 }
 
