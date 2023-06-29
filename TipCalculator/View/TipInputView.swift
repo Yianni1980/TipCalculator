@@ -10,8 +10,8 @@ import UIKit
 class TipInputView:UIView {
    private let logoView = LogoView()
     
-    init() {
-        super.init(frame: .zero)
+    override init(frame:CGRect) {
+        super.init(frame: frame)
         
         layout()
     }

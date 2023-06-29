@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BBBF1A02A4E3AA40081F9B3 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBBF19F2A4E3AA40081F9B3 /* AmountView.swift */; };
 		0BC92A5F2A4C205E0042A663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A5E2A4C205E0042A663 /* AppDelegate.swift */; };
 		0BC92A612A4C205E0042A663 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A602A4C205E0042A663 /* SceneDelegate.swift */; };
 		0BC92A632A4C205E0042A663 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC92A622A4C205E0042A663 /* CalculatorVC.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BBBF19F2A4E3AA40081F9B3 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		0BC92A5B2A4C205E0042A663 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC92A5E2A4C205E0042A663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC92A602A4C205E0042A663 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				0BC92AA22A4C30320042A663 /* ResultView.swift */,
 				0BC92AA42A4C30340042A663 /* SplitInputView.swift */,
 				0BC92AA62A4C30370042A663 /* TipInputView.swift */,
+				0BBBF19F2A4E3AA40081F9B3 /* AmountView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBBF1A02A4E3AA40081F9B3 /* AmountView.swift in Sources */,
 				0BC92AA12A4C30310042A663 /* LogoView.swift in Sources */,
 				0BD110102A4CCB6300ECD6CD /* UIView+Extension.swift in Sources */,
 				0BC92AB32A4C5AB40042A663 /* LabelFactory.swift in Sources */,

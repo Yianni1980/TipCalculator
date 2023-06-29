@@ -53,12 +53,11 @@ class LogoView:UIView {
         return stackView
     }()
     
-    init() {
-        super.init(frame: .zero)
+    override init(frame:CGRect) {
+        super.init(frame: frame)
         
         layout()
     }
-    
   
     
     required init?(coder: NSCoder) {

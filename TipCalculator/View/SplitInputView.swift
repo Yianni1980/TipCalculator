@@ -11,8 +11,8 @@ import UIKit
 class SplitInputView:UIView {
    
     
-    init() {
-        super.init(frame: .zero)
+    override init(frame:CGRect) {
+        super.init(frame: frame)
         
         layout()
     }
