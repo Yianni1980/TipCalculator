@@ -92,7 +92,7 @@ class TipInputView:UIView {
         super.init(frame: .zero)
         
         layout()
-        //        print("tip:\(tipSubject.value)")
+               print("tip:\(tipSubject.value)")
             observe()
     }
     

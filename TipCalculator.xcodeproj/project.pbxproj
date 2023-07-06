@@ -124,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				0B7A23272A5210E700665DDA /* Tip.swift */,
+				0B8DEE8A2A54BE5E00A97F8E /* CalculatorVM.swift */,
 				0B8DEE8C2A54C23600A97F8E /* Result.swift */,
 			);
 			path = Model;
@@ -132,7 +133,6 @@
 		0B8DEE892A54BE3A00A97F8E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				0B8DEE8A2A54BE5E00A97F8E /* CalculatorVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -168,7 +168,6 @@
 				0BC92AA92A4C3D140042A663 /* config */,
 				0BC92A5E2A4C205E0042A663 /* AppDelegate.swift */,
 				0BC92A602A4C205E0042A663 /* SceneDelegate.swift */,
-				0BC92A622A4C205E0042A663 /* CalculatorVC.swift */,
 				0BC92AA82A4C304A0042A663 /* View */,
 				0BC92A672A4C20600042A663 /* Assets.xcassets */,
 				0BC92A692A4C20600042A663 /* LaunchScreen.storyboard */,
@@ -211,6 +210,7 @@
 				0BC92AA62A4C30370042A663 /* TipInputView.swift */,
 				0BBBF19F2A4E3AA40081F9B3 /* AmountView.swift */,
 				0B7A23292A52111100665DDA /* HeaderView.swift */,
+				0BC92A622A4C205E0042A663 /* CalculatorVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
