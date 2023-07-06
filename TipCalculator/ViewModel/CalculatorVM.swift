@@ -33,10 +33,25 @@ class CalculatorVM {
 //            print("thebill:\(bill)")
 //        }.store(in: &cancellables)
         
-        input.tipPublisher.sink { tip in
-            print("TipPercent:\(tip)")
-            
-        }.store(in: &cancellables)
+        
+//
+//        input.tipPublisher.sink { tip in
+//            print("TipPercent:\(tip)")
+//
+//        }.store(in: &cancellables)
+        
+//        input.splitPublisher.sink { split in
+//            print("the split:\(split)")
+//        }.store(in: &cancellables)
+        
+        let updateViewPublisher = Publishers.CombineLatest3(
+            input.billPublisher,
+            input.tipPublisher,
+//            input.splitPublisher.flatMap({ Intyhj in
+//                <#code#>
+//            })
+        
+        )
         
         let result = Result(
             amountPerPerson: 500,
