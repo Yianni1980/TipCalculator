@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1A74712A5B628300BD5D04 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A74702A5B628300BD5D04 /* Double+Extension.swift */; };
 		0B22C4C22A5609B200AF9941 /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B22C4C12A5609B200AF9941 /* UIResponder+Extension.swift */; };
 		0B22C4C42A5615CD00AF9941 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B22C4C32A5615CD00AF9941 /* Int+Extension.swift */; };
 		0B7A23282A5210E700665DDA /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A23272A5210E700665DDA /* Tip.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1A74702A5B628300BD5D04 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		0B22C4C12A5609B200AF9941 /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		0B22C4C32A5615CD00AF9941 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		0B7A23272A5210E700665DDA /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
@@ -124,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				0B7A23272A5210E700665DDA /* Tip.swift */,
-				0B8DEE8A2A54BE5E00A97F8E /* CalculatorVM.swift */,
 				0B8DEE8C2A54C23600A97F8E /* Result.swift */,
 			);
 			path = Model;
@@ -133,6 +134,7 @@
 		0B8DEE892A54BE3A00A97F8E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				0B8DEE8A2A54BE5E00A97F8E /* CalculatorVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -232,6 +234,7 @@
 				0B8DEE8E2A54CB0C00A97F8E /* String+Extension.swift */,
 				0B22C4C12A5609B200AF9941 /* UIResponder+Extension.swift */,
 				0B22C4C32A5615CD00AF9941 /* Int+Extension.swift */,
+				0B1A74702A5B628300BD5D04 /* Double+Extension.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				0BC92A5F2A4C205E0042A663 /* AppDelegate.swift in Sources */,
 				0BC92AA72A4C30370042A663 /* TipInputView.swift in Sources */,
 				0BC92AAD2A4C3D350042A663 /* ThemeFont.swift in Sources */,
+				0B1A74712A5B628300BD5D04 /* Double+Extension.swift in Sources */,
 				0BC92AAB2A4C3D240042A663 /* themeColor.swift in Sources */,
 				0B7A23282A5210E700665DDA /* Tip.swift in Sources */,
 				0BC92A612A4C205E0042A663 /* SceneDelegate.swift in Sources */,

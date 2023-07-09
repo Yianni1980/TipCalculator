@@ -15,6 +15,7 @@ class CalculatorVM {
         let billPublisher: AnyPublisher<Double,Never>
         let tipPublisher: AnyPublisher<Tip,Never>
         let splitPublisher:AnyPublisher<Int,Never>
+        let logoViewTapPublisher:AnyPublisher<Void,Never>
         
     }
     
@@ -22,6 +23,7 @@ class CalculatorVM {
     struct Output {
         
         let updateViewPublisher: AnyPublisher<Result,Never>
+        let resultCalculatorPublisher:AnyPublisher<Void,Never>
         
         
     }
@@ -57,7 +59,9 @@ class CalculatorVM {
                     totalTip: totalTip)
                 return Just(result)
             }.eraseToAnyPublisher()
-        return Output(updateViewPublisher: updateViewPublisher)
+        
+        let resultCalculatorPublisher = input.logoViewTapPublisher
+        return Output(updateViewPublisher: updateViewPublisher, resultCalculatorPublisher: resultCalculatorPublisher)
     }
             
             
