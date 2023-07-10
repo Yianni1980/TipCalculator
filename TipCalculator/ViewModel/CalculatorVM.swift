@@ -23,11 +23,16 @@ class CalculatorVM {
     struct Output {
         
         let updateViewPublisher: AnyPublisher<Result,Never>
-        let resultCalculatorPublisher:AnyPublisher<Void,Never>
+        let resetCalculatorPublisher:AnyPublisher<Void,Never>
         
         
     }
     private var cancellables = Set<AnyCancellable>()
+    private let audioPlayerSerrvice:AudioPlayerService
+    
+    init(audioPlayerService:AudioPlayerService = DefaultAudioPlayer()) {
+        self.audioPlayerSerrvice = audioPlayerService
+    }
     
     func  transform(input:Input) ->Output {
 //        
@@ -60,8 +65,12 @@ class CalculatorVM {
                 return Just(result)
             }.eraseToAnyPublisher()
         
-        let resultCalculatorPublisher = input.logoViewTapPublisher
-        return Output(updateViewPublisher: updateViewPublisher, resultCalculatorPublisher: resultCalculatorPublisher)
+        let resultCalculatorPublisher = input.logoViewTapPublisher.handleEvents( receiveOutput: { [unowned self]  in
+            
+            audioPlayerSerrvice.playSound()
+            
+        }).flatMap { return Just($0) }.eraseToAnyPublisher()
+        return Output(updateViewPublisher: updateViewPublisher, resetCalculatorPublisher: resultCalculatorPublisher)
     }
             
             
